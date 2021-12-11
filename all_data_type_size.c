@@ -56,3 +56,57 @@ int main()
   
   return 0;
 }
+
+#if 0
+OUT PUT IN RASPBERRY PI 4 using noobs 32 bit OS / getconf LONG_BIT 32
+# C Data Types
+## Integer Types
+- Size of `bool`:                    1 bytes (8 bits)
+- Size of `size_t`:                  4 bytes (32 bits)
+- Size of `char`:                    1 bytes (8 bits)
+- Size of `signed char`:             1 bytes (8 bits)
+- Size of `unsigned char`:           1 bytes (8 bits)
+- Size of `short`:                   2 bytes (16 bits)
+- Size of `signed  short`:           2 bytes (16 bits)
+- Size of `Unsigned short`:          2 bytes (16 bits)
+- Size of `short int`:               2 bytes (16 bits)
+- Size of `signed short int`:        2 bytes (16 bits)
+- Size of `unsigned short int`:      2 bytes (16 bits)
+- Size of `int`:                     4 bytes (32 bits)
+- Size of `signed int`:              4 bytes (32 bits)
+- Size of `unsigned int`:            4 bytes (32 bits)
+- Size of `unsigned`:                4 bytes (32 bits)
+- Size of `long int`:                4 bytes (32 bits)
+- Size of `long`:                    4 bytes (32 bits)
+- Size of `unsigned long int`:       4 bytes (32 bits)
+- Size of `unsigned long`:           4 bytes (32 bits)
+- Size of `unsigned long long`:      8 bytes (64 bits)
+
+Note that the following are equivalent -- the first is a shorthand for the second:
+
+- `short` and `short int`
+- `unsigned` and `unsigned int`
+- `long` and `long int`
+- `unsigned long` and `unsigned long int`
+
+## Floating-Point Types
+- Size of `float`:        4 bytes (32 bits)
+- Size of `double`:       8 bytes (64 bits)
+- Size of `long double`:  8 bytes (64 bits)
+
+## Some special structure Types
+- Size of `clock_t`:               4 bytes (32 bits)
+- Size of `time_t`:                4 bytes (32 bits)
+- Size of `struct tm`:            44 bytes (352 bits)
+- Size of `struct timeval`:        8 bytes (64 bits)
+
+## Size of constant Types
+- Size of `size of 'a':                                                           4 bytes (32 bits)
+- Size of `size of 'abcde':                                                       6 bytes (48 bits)
+- Size of `size of 423:                                                           4 bytes (32 bits)
+- Size of `size of 4343243253425435342543254326326565463615435342534254325423:    8 bytes (64 bits)
+- Size of `size of 4.23:                                                          8 bytes (64 bits)
+- Size of `size of 42424242424235435.235435436365265465465464566546543543253:     8 bytes (64 bits)
+#endif
+
+
